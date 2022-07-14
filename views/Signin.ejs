@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="587388834334-fb1iddt85o3r4vlf77h80u745d4d2l2d.apps.googleusercontent.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%= title %></title>
+    <link
+      rel="shortcut icon"
+      type="img/x-icon"
+      href="../images/chill_logo.png"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
+  </head>
+  <body
+    style="
+      background-image: url(../images/bg.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    "
+  >
+    <!-- body code goes here -->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="ms-5">
+          <a class="navbar-brand" href="/">
+            <img
+              src="../images/chill_logo.png"
+              alt=""
+              width="70"
+              height="70"
+              class="rounded-circle img-fluid"
+            /><strong> ChillnFree</strong>
+          </a>
+        </div>
+        <!-- <div class = "me-5">
+          <form action="/account/signUp">
+            <button class="btn btn-outline-light">Sign up</button>
+          </form>
+        </div> -->
+      </div>
+    </nav>
+    <p></p>
+    <h3 class="d-flex justify-content-center">
+      <strong>To continue, sign in to ChillnFree</strong>
+    </h3>
+    <div class="d-flex justify-content-center"> 
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </div>
+    <!-- <h6 class="d-flex justify-content-center"><strong>Or</strong></h6> -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div
+          class="col-md-4 bg-light"
+          style="
+            border-top-right-radius: 7%;
+            border-bottom-left-radius: 7%;
+            border-top-left-radius: 7%;
+            border-bottom-right-radius: 7%;
+          "
+        > -->
+          <!-- Link to home-->
+          <!-- <form action="/home_signedin" method="">
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" name="id" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                name="pw"
+                id="password"
+              />
+            </div>
+			<br>
+            <div class="d-flex justify-content-between form-group form-check">
+              <div class="">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  name="remember-me"
+                  id="remember-me"
+                />
+                <label for="remember-me" class="form-check-label"
+                  >&nbsp Remember me</label
+                >
+              </div>
+              <div class="">
+                <button
+                  type="submit"
+                  class="btn btn-outline-success float-right"
+                >
+                  Sign in
+                </button>
+              </div>
+            </div>
+          </form> -->
+          <!-- <p></p>
+          <a href="">Forgot your password?</a>
+          <p></p>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/popper.min.js"></script>  -->
+    <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/javascripts/signin.js"></script>
+  </body>
+</html>
